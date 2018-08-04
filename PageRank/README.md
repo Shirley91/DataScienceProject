@@ -1,5 +1,5 @@
 # Page Rank
-The objective of this project is to rank websits in the search engine results.
+The objective of this project is to rank websites in the search engine results.
 ## Assumptions:
 - Quantity assumption: more important websites are likely to receive more links for other websites.
 - Quality assumption: website with higher Page Rank will pass higher weight.
