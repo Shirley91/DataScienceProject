@@ -2,6 +2,7 @@
 The objective of this project is to generate an N to N-Gram auto completion.
 ## N to 1-Gram 
 (MapReduce using Docker-Hadoop)
+
 We need to generate a database with three columns: 
 - the input phrase 
 - the following phrase 
