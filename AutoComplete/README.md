@@ -1,6 +1,7 @@
 # Auto Completion
 The objective of this project is to generate an N to N-Gram auto completion.
-## N to 1-Gram (MapReduce using Docker-Hadoop)
+## N to 1-Gram 
+- MapReduce using Docker-Hadoop
 We need to generate a database with three columns: 
 - the input phrase 
 - the following phrase 
@@ -13,6 +14,7 @@ Therefore, we need to build two MapReduce:
    - The input or starting phrase as key and following phrase with count as value (from 1st MapReduce).
    - The mapper would split the following phrase and counts.
    - The reducer would generate and output the three columns database for the top k following phrase.
-## N to N-Gram (MySQL-MAMP)
+## N to N-Gram 
+- MySQL-MAMP
 
    
