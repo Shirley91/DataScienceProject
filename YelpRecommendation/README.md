@@ -13,20 +13,20 @@ The data is from [Yelp Dataset Challenge](https://www.yelp.com/dataset/challenge
   - 1.1M business attributes, e.g., hours, parking availability, ambience.
   - Aggregated check-ins over time for each of the 125K businesses
   - 200,000 pictures from the included businesses
-  ## Extract Features
-  (Natural Language Processing, NLP)
+## Extract Features
+(Natural Language Processing, NLP)
   
-  - Tokenization: split words by space, lower case, remove stop words and punctuation.
-  - Stemming and Lemmatization
-  - Convert words into vectors using TF-IDF
-  ## Classify Reviews
-  - Naïve Bayes
-  - Logistic Regression
-  - Random Forest 
-  ## Cluster Users
-  - K-mean cluster
-  ## Recommmendation System
-  (Item-Item Similarity)
+- Tokenization: split words by space, lower case, remove stop words and punctuation.
+- Stemming and Lemmatization
+- Convert words into vectors using TF-IDF
+## Classify Reviews
+- Naïve Bayes
+- Logistic Regression
+- Random Forest 
+## Cluster Users
+- K-mean cluster
+## Recommmendation System
+(Item-Item Similarity)
   
-  - Collaborative filtering
-  - Matrix factorization: NMF, SVD, GraphLab
+- Collaborative filtering
+- Matrix factorization: NMF, SVD, GraphLab
