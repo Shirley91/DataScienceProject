@@ -30,7 +30,7 @@ There are three types of log data, including user's play, download, and search r
 - Unpack and clean files into one dataframe, column 'event' present play (p), download (d), and search (s) types
 - Remove outliers (extrmemly large play_time and frequency) by percentile
 - Extract variables mainly useful for churn prediction
-- Define churn users: 0 acticities from 4/29 to 5/12 if users is active(play more than 3 times) from 3/30 to 4/28
+- Define churn users: 0 acticities from 4/29 to 5/12 if the user is active(play more than 3 times) from 3/30 to 4/28
 - Downsampling: shrink dataset size and balance churn/active rate
 ## Feature Generation
 - time-window =[1,3,7,14,21,30], snapshot date = 4/28
