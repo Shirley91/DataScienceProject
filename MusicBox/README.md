@@ -1,7 +1,7 @@
 # Music Box 
 The objective of this project is to build classification models to predict churn and provide more business insights for MusicBox.
 ## Data Sources
-There are three types of log data, including user's play, download, and search recors in MusicBox app through 3/30/2017 to 5/12/2017.
+There are three types of log data, including user's play, download, and search records in MusicBox app through 3/30/2017 to 5/12/2017.
 - Play.log (17G)
   - user_id (numeric) :5 digits-11digits
   - device (categoric) :ar/ip
